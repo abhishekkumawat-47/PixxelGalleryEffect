@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  color: black;
+}
+
+.grid > div {
+  grid-row: var(--r);
+  grid-column: var(--c);
+}
+
+.elem img {
+  will-change: transform;
+}
